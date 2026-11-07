@@ -14,6 +14,9 @@ struct Blackboard{
 
 fn main() -> std::io::Result<()> {    
     // initialize the blackboard
+    println!(
+                "Running Solo code"
+            );
     let mut state = Blackboard::default();
 
     let mut gc_handler = GameControllerHandler::new(4, 2)?;
